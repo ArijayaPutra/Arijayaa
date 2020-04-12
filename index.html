@@ -191,57 +191,6 @@
   			height: 110px;
   			animation-delay: 3.5s;
   		}
-  		.bulat{
-  			position: absolute;
-  			width: 600px;
-  			height: 600px;
-  			display: flex;
-  			left:50%;
-	  		bottom: 50%;
-	  		transform: translate(-50%,50%) scale(0);
-	  		transition: 3s all ease;
-  		}
-  		.bulat span:nth-child(1){
-  			position: absolute;
-  			top: 0;
-  			left: 0;
-  			width: 100%;
-  			height: 100%;
-  			border: 2px solid #fff;
-  			border-radius: 38% 62% 63% 37% / 41% 44% 56% 59%;
-  			transition: 0.5s;
-  			animation: animate2 6s linear infinite;
-  		}
-  		.bulat span:nth-child(2){
-  			position: absolute;
-  			top: 0;
-  			left: 0;
-  			width: 100%;
-  			height: 100%;
-  			border: 2px solid #fff;
-  			border-radius: 38% 62% 63% 37% / 41% 44% 56% 59%;
-  			transition: 0.5s;
-  			animation: animate3 4s linear infinite;
-  		}
-  		.bulat span:nth-child(3){
-  			position: absolute;
-  			top: 0;
-  			left: 0;
-  			width: 100%;
-  			height: 100%;
-  			border: 5px solid #fff;
-  			border-radius: 38% 62% 63% 37% / 41% 44% 56% 59%;
-  			transition: 0.5s;
-  			animation: animate2 10s linear infinite;
-  		}
-  		.pengembang{
-  			position: absolute;
-  			font-size: 10px;
-  			color: #FFFFFF;
-  			bottom: 0px;
-  			right: 0px;
-  			opacity: 0.3;
-  		}
   		@keyframes animate{
   			0%{
   				transform: translateY(0) rotate(0deg);
@@ -974,64 +923,7 @@
 				}
 			}
 
-			const quotes = [
-			  {
-			    "quote": "Bila kau tak tahan lelahnya belajar, maka kau harus tahan menanggung perihnya kebodohan",
-			    "source": "Imam Syafi'i"
-			  },
-			  {
-			    "quote": "Just because I carry it all so well doesn't mean it's not heavy",
-			    "source": "Andika Sujanadi"
-			  },
-			  {
-			    "quote": "Semesta memiliki alurnya masing-masing",
-			    "source": "Andika Sujanadi"
-			  },
-			  {
-			    "quote": "You don't lose, You learn",
-			    "source": "Andika Sujanadi"
-			  },
-			  {
-			    "quote": "I own my own life and my own decission",
-			    "source": "Andika Sujanadi"
-			  },
-			  {
-			    "quote": "Every failure, rejection, betrayal should be the reason for you to come back stronger in life by working on goals and achiving them",
-			    "source": "Andika Sujanadi"
-			  },
-			  {
-			    "quote": "Masa lalu dan frustasi merupakan fondasi dasar untuk menciptakan kembali kehidupan baru yang lebih baik",
-			    "source": "Anthony Robbins"
-			  },
-			  {
-			    "quote": "Ada kalimat yang ingin aku dapatkan dari dia tapi aku dapat dari orang lain",
-			    "source": "Andika Sujanadi"
-			  },
-			  {
-			    "quote": "People doesn't want to end their life, they just wanted to end the pain",
-			    "source": "Andika Sujanadi"
-			  },
-			  {
-			    "quote": "Need someone to talk about life, but sitting alone is much better",
-			    "source": "Andika Sujanadi"
-			  },
-			  {
-			    "quote": "Seorang bahagia bukan karena semua benar dalam hidupnya, tapi sikap terhadap hidupnya yang benar",
-			    "source": "Sundar Pichai"
-			  },
-			  {
-			    "quote": "Jika hari ini harus lebih baik darpada hari kemarin dan hari esok lebih baik daripada hari ini maka kelahiranmu adalah hari terburuk yang pernah ada",
-			    "source": "Om Hell"
-			  },
-			]
-			setInterval(randomQuote, 60000);
-			function randomQuote(){
-			  let random = quotes[Math.floor(Math.random() * quotes.length)];
-			  quotation.innerText = `"${random.quote}"`;
-			  source.innerText = random.source;
-			}
-
-			var i = 0;
+		var i = 0;
 			
 			var speed = 50;
 			
